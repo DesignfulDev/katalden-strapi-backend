@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "roupas",
+  "info": {
+    "singularName": "roupa",
+    "pluralName": "roupas",
+    "displayName": "Roupa"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "material": {
+      "type": "string"
+    },
+    "preco": {
+      "type": "decimal"
+    },
+    "descricao": {
+      "type": "text"
+    },
+    "imagens": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "medidasDisponiveis": {
+      "type": "component",
+      "repeatable": true,
+      "component": "clothe-size.medida"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_clothe_dimensions_dimensoes_da_roupas",
+  "info": {
+    "displayName": "Dimensões da Roupa",
+    "icon": "arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "tipoDimensao": {
+      "type": "string"
+    },
+    "medida": {
+      "type": "integer"
+    }
+  }
+}

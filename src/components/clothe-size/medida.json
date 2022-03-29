@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_clothe_size_medidas",
+  "info": {
+    "displayName": "Medida",
+    "icon": "arrows-alt-v"
+  },
+  "options": {},
+  "attributes": {
+    "tamanho": {
+      "type": "enumeration",
+      "enum": [
+        "PP",
+        "P",
+        "M",
+        "G",
+        "GG",
+        "GGG"
+      ]
+    },
+    "dimensoes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "clothe-dimensions.dimensoes-da-roupa"
+    }
+  }
+}
