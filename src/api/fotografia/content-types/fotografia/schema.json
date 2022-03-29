@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fotografias",
+  "info": {
+    "singularName": "fotografia",
+    "pluralName": "fotografias",
+    "displayName": "Fotografia",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nomeProjeto": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "text"
+    },
+    "imagem": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "printOptions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "print-options.opcoes-de-print"
+    }
+  }
+}
