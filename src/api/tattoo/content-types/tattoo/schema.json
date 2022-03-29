@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tattoos",
+  "info": {
+    "singularName": "tattoo",
+    "pluralName": "tattoos",
+    "displayName": "Tattoo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cliente": {
+      "type": "string",
+      "required": false
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "Finalizado",
+        "Em andamento"
+      ]
+    },
+    "descricao": {
+      "type": "text"
+    },
+    "imagens": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sessoes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sessao-tattoo.sessao-de-tattoo"
+    }
+  }
+}
