@@ -115,3 +115,6 @@ build
 
 # Heroku-specific configs
 package-lock.json
+
+# Developer configs
+.vscode
