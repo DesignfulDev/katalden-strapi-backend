@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * fotografia router.
+ * arte router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::fotografia.fotografia');
+module.exports = createCoreRouter('api::arte.arte');

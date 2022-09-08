@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * fotografia service.
+ * arte service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::fotografia.fotografia');
+module.exports = createCoreService('api::arte.arte');

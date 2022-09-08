@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- *  fotografia controller
+ * arte controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::fotografia.fotografia');
+module.exports = createCoreController('api::arte.arte');
