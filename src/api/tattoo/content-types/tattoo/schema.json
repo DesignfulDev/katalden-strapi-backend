@@ -4,8 +4,7 @@
   "info": {
     "singularName": "tattoo",
     "pluralName": "tattoos",
-    "displayName": "Tattoo",
-    "description": ""
+    "displayName": "Tattoo"
   },
   "options": {
     "draftAndPublish": true
@@ -14,33 +13,25 @@
   "attributes": {
     "cliente": {
       "type": "string",
-      "required": false
+      "required": true
     },
-    "status": {
-      "type": "enumeration",
-      "enum": [
-        "Finalizado",
-        "Em andamento"
-      ]
+    "local": {
+      "type": "string"
+    },
+    "data": {
+      "type": "string"
     },
     "descricao": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "imagens": {
+      "allowedTypes": [
+        "images"
+      ],
       "type": "media",
       "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "sessoes": {
-      "type": "component",
-      "repeatable": true,
-      "component": "sessao-tattoo.sessao-de-tattoo"
+      "required": true
     }
   }
 }

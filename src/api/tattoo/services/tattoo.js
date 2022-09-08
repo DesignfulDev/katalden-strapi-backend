@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * tattoo service.
+ * tattoo service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;

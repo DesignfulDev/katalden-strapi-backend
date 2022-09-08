@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * tattoo router.
+ * tattoo router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
