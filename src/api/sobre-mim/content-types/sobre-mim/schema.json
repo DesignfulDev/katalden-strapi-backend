@@ -1,25 +1,24 @@
 {
   "kind": "singleType",
-  "collectionName": "abouts",
+  "collectionName": "sobre_mins",
   "info": {
-    "singularName": "about",
-    "pluralName": "abouts",
-    "displayName": "About"
+    "singularName": "sobre-mim",
+    "pluralName": "sobre-mins",
+    "displayName": "Sobre Mim",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "sobreMim": {
+    "descricao": {
       "type": "text"
     },
     "imagens": {
       "allowedTypes": [
         "images",
-        "files",
-        "videos",
-        "audios"
+        "videos"
       ],
       "type": "media",
       "multiple": true
