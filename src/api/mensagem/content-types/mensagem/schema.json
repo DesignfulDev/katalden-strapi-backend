@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mensagens",
+  "info": {
+    "singularName": "mensagem",
+    "pluralName": "mensagens",
+    "displayName": "Mensagem",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "assunto": {
+      "type": "enumeration",
+      "enum": [
+        "agendamento",
+        "fotografia",
+        "colab",
+        "outro"
+      ],
+      "required": true
+    },
+    "mensagem": {
+      "type": "text",
+      "required": true
+    },
+    "newsletter": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
