@@ -1,10 +1,11 @@
 {
   "kind": "singleType",
-  "collectionName": "contatoes",
+  "collectionName": "informacoes_contatos",
   "info": {
-    "singularName": "contato",
-    "pluralName": "contatoes",
-    "displayName": "Contato"
+    "singularName": "informacoes-contato",
+    "pluralName": "informacoes-contatos",
+    "displayName": "Informações Contato",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
