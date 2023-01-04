@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "convite_newsletters",
+  "info": {
+    "singularName": "convite-newsletter",
+    "pluralName": "convite-newsletters",
+    "displayName": "Convite Newsletter",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "descricao": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
